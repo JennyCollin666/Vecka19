@@ -1,0 +1,131 @@
+*{
+  margin: 0px;
+}
+
+.backgroundcolor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: rgb(104, 177, 205);  
+}
+
+.traficParent {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+.box2 {  
+  height: 100px;
+  width: 100px;
+  margin: 6px; 
+}
+
+.red {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 3px;
+  border: 10px solid rgb(33, 2, 2);
+  background-color: rgb(74, 7, 7);  
+}
+
+.innerRed {
+  height: 50%;
+  width: 100%;
+  background-color: rgb(218, 86, 86);
+}
+
+.yellow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 3px;
+  background-color: rgb(161, 142, 4); 
+  border: 10px solid rgb(255, 243, 9); 
+}
+
+.innerYellow {
+  height: 50%;
+  width: 50%;
+  background-color: rgb(233, 217, 76);
+}
+
+.green {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: rgb(7, 146, 25);
+  border: 10px solid rgb(9, 255, 9);
+ 
+}
+
+.innerGreen {
+  height: 50%;
+  width: 50%;
+  background-color: rgb(94, 237, 66);
+}
+
+
+
+/*
+.box {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+
+  width: 200px;
+  height: 380px;
+
+  justify-content: space-between;
+}
+
+.size {
+  height: 100px;
+  width: 100px;
+}
+
+.boxred {
+  background-color: rgb(246, 9, 9);
+  border: 10px rgb(23, 0, 0) solid;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.innerred {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(82, 0, 0);
+}
+
+.boxlight {
+  background-color: rgb(251, 255, 21);
+  border: 10px rgb(85, 85, 4) solid;
+
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+.innerlight {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(128, 113, 2);
+}
+
+.boxgreen {
+  background-color: rgb(101, 196, 6);
+  border: 10px rgb(7, 23, 0) solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.innergreen {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(4, 47, 14);
+}
